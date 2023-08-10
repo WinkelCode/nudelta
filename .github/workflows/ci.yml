@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: win-app
-          path: ./nudelta-amd64.exe.zip
+          path: ./
   linux:
     name: Build (Linux)
     runs-on: ubuntu-20.04
